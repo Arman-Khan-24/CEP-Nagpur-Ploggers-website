@@ -21,15 +21,15 @@
             <li><a href="#report-waste">Report a Waste Location</a></li>
         </ul>
         <button class="nav-btn">
-            Join Us <i class="ri-arrow-right-up-line"></i>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSefFQD_C_wvuHX6dZHRkAbwecuBt3tp-kKXs3Cq4SMu1gubMw/viewform"
+                target="_blank">Join Us <i class="ri-arrow-right-up-line"></i></a>
         </button>
 
-    <div class="hamburger" id="hamburger" onclick="toggleMenu()">
-        <span></span>
-        <span></span>
-        <span></span>
-    </div>
-
+        <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
     </nav>
 
     <div class="header" id="home">
@@ -37,11 +37,12 @@
             <h1><span>NAGPUR</span><br /><span>PLOGGERS</span></h1>
             <div class="btn-container">
                 <button class="btn-dark">
-                    Join Us <i class="ri-arrow-right-up-line"></i>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSefFQD_C_wvuHX6dZHRkAbwecuBt3tp-kKXs3Cq4SMu1gubMw/viewform"
+                        target="_blank">Join Us <i class="ri-arrow-right-up-line"></i></a>
                 </button>
-                <button class="btn-light">
+                <label for="popup-toggle" class="btn-light">
                     Support Us <i class="ri-arrow-right-up-line"></i>
-                </button>
+                </label>
             </div>
             <p>Join the green movement and make Nagpur cleaner, one plog at a time!</p>
         </div>
@@ -64,12 +65,14 @@
         <h2>Upcoming Events</h2>
         <div class="event-container">
             <div class="event-card">
-                <img src="https://imgs.search.brave.com/htYqiIDQpqWrBpkfwa_8ularmVLTSTV9n2aFnmUU00w/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jb250/ZW50LmpkbWFnaWNi/b3guY29tL2NvbXAv/bmFncHVyL2E2LzA3/MTJweDcxMi54NzEy/LjEzMDYxNzE1MDMx/My56MmE2L2NhdGFs/b2d1ZS9pbmRvb3It/c3BvcnRzLXN0YWRp/dW0tbWFua2FwdXIt/bmFncHVyLXN0YWRp/dW1zLTBpdmd2Nnpv/YmMuanBnP3c9Mzg0/MCZxPTc1" alt="Sakkardara Lake">
+                <img src="https://imgs.search.brave.com/htYqiIDQpqWrBpkfwa_8ularmVLTSTV9n2aFnmUU00w/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jb250/ZW50LmpkbWFnaWNi/b3guY29tL2NvbXAv/bmFncHVyL2E2LzA3/MTJweDcxMi54NzEy/LjEzMDYxNzE1MDMx/My56MmE2L2NhdGFs/b2d1ZS9pbmRvb3It/c3BvcnRzLXN0YWRp/dW0tbWFua2FwdXIt/bmFncHVyLXN0YWRp/dW1zLTBpdmd2Nnpv/YmMuanBnP3c9Mzg0/MCZxPTc1"
+                    alt="Mankapur Stadium">
                 <h3>Mankapur Stadium</h3>
                 <p>6 Oct 2024</p>
             </div>
             <div class="event-card">
-                <img src="https://imgs.search.brave.com/-9RiFFUS2FfdcSVJz6xAZj1dtQOlXXmnL3IxA1EgRFQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YTEudGhyaWxsb3Bo/aWxpYS5jb20vZmls/ZXN0b3JlL3Nucmp2/OGlydTMybTFrZHky/d2JiY203eG1vbDZf/MTU1MzUxMjUyM19r/YXN0dXJjaGFuZF9w/YXJrLmpwZz93PTE0/NDAmZHByPTI" alt="Kasturchand Park">
+                <img src="https://imgs.search.brave.com/-9RiFFUS2FfdcSVJz6xAZj1dtQOlXXmnL3IxA1EgRFQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YTEudGhyaWxsb3Bo/aWxpYS5jb20vZmls/ZXN0b3JlL3Nucmp2/OGlydTMybTFrZHky/d2JiY203eG1vbDZf/MTU1MzUxMjUyM19r/YXN0dXJjaGFuZF9w/YXJrLmpwZz93PTE0/NDAmZHByPTI"
+                    alt="Kasturchand Park">
                 <h3>Kasturchand Park</h3>
                 <p>13 Oct 2024</p>
             </div>
@@ -78,7 +81,10 @@
         <div class="report-waste" id="report-waste">
             <h3>Help Us Clean Nagpur</h3>
             <p>Spotted a location that needs cleaning? Let us know, and we'll organize a plogging event there!</p>
-            <button id="reportIssue" class="btn-dark">Report a Waste Location<i class="ri-arrow-right-up-line"></i></button>
+            <button id="reportIssue" class="btn-dark">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdpL6jqVYw3AZ4ViRadmuWLFl5OewQZuDgbTcPL5b9d196QIQ/viewform?usp=sf_link"
+                    target="_blank">Report a Waste Location <i class="ri-arrow-right-up-line"></i></a>
+            </button>
         </div>
     </section>
 
@@ -114,63 +120,41 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <input type="checkbox" id="popup-toggle" class="popup-toggle">
+    <div class="popup">
+        <div class="popup-content">
+            <label for="popup-toggle" class="close">&times;</label>
+            <div class="popup-left">
+                <p>While donating, please add your name with donation written in bracket and min donation is 20rs</p>
+            </div>
+            <div class="popup-right">
+                <img src="https://example.com/qr-code.png" alt="QR Code for donation" class="qr-code">
+                <p>Scan the QR code from your mobile to donate</p>
+            </div>
+        </div>
+    </div>
 </body>
 
+    <script>
+        // JavaScript for hamburger menu functionality
+        document.addEventListener('DOMContentLoaded', function () {
+            const hamburger = document.getElementById('hamburger');
+            const menuLinks = document.getElementById('menu-links');
+
+            hamburger.addEventListener('click', function () {
+                hamburger.classList.toggle('active');
+                menuLinks.classList.toggle('show-menu');
+            });
+
+            // Close menu when a link is clicked
+            const navLinks = document.querySelectorAll('#menu-links li a');
+            navLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                    hamburger.classList.remove('active');
+                    menuLinks.classList.remove('show-menu');
+                });
+            });
+        });
+    </script>
+
 </html>
-
-<script>document.addEventListener('DOMContentLoaded', function () {
-        let navbar = document.querySelector("nav");
-        let menuLinks = document.getElementById("menu-links");
-        let hamburger = document.getElementById("hamburger");
-
-        function toggleMenu() {
-            menuLinks.classList.toggle("show-menu");
-            hamburger.classList.toggle('active');
-        }
-
-        hamburger.addEventListener('click', toggleMenu);
-
-        // Close menu when a link is clicked
-        menuLinks.querySelectorAll('a').forEach(link => {
-            link.addEventListener('click', () => {
-                menuLinks.classList.remove('show-menu');
-                hamburger.classList.remove('active');
-            });
-        });
-
-        window.onscroll = function () {
-            if (window.scrollY > 0) {
-                navbar.classList.add("scrolled");
-            } else {
-                navbar.classList.remove("scrolled");
-            }
-        };
-
-        // Event slider code
-        const slider = document.querySelector('.event-container');
-        const cards = document.querySelectorAll('.event-card');
-        const prevBtn = document.querySelector('.prev');
-        const nextBtn = document.querySelector('.next');
-        let currentIndex = 0;
-
-        function showCard(index) {
-            if (index < 0) index = cards.length - 1;
-            if (index >= cards.length) index = 0;
-
-            const offset = index * (cards[0].offsetWidth + 20); // 20px for margin
-            slider.scrollTo({
-                left: offset,
-                behavior: 'smooth'
-            });
-            currentIndex = index;
-        }
-
-        prevBtn.addEventListener('click', () => showCard(currentIndex - 1));
-        nextBtn.addEventListener('click', () => showCard(currentIndex + 1));
-
-        document.getElementById('reportIssue').addEventListener('click', function () {
-            alert('Thank you for reporting a waste location. Our team will review and address it soon.');
-        });
-    });
-</script>
